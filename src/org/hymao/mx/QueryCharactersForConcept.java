@@ -68,7 +68,7 @@ public class QueryCharactersForConcept {
        final OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
        final OWLOntology ontology = manager.loadOntologyFromOntologyDocument(new File("/Users/jim/Desktop/mx_characters.owl"));
        final QueryCharactersForConcept query = new QueryCharactersForConcept(ontology, input);
-       System.out.print(query.getCharacters());
+       System.out.println(query.getCharacters());
     }
 
 }
