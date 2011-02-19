@@ -5,16 +5,19 @@ public class Vocab {
     public static class MX {
         public static final String PREFIX = "http://purl.oclc.org/NET/mx-database/";
         public static final String HAS_MX_ID = PREFIX + "has_mx_id";
+        public static final String DESCRIBES_STATE = PREFIX + "describes_state";
+        public static final String CAN_HAVE_STATE = PREFIX + "can_have_state";
+
     }
     
     public static class OBO_REL {
         
         public static final String PREFIX = "http://purl.obolibrary.org/obo/";
-        public static final String INHERES_IN = "OBO_REL_inheres_in";
-        public static final String INHERES_IN_PART_OF = "OBO_REL_inheres_in_part_of";
-        public static final String TOWARDS = "OBO_REL_towards";
-        public static final String HAS_PART = "OBO_REL_has_part";
-        public static final String BEARER_OF = "OBO_REL_bearer_of";
+        public static final String INHERES_IN = PREFIX + "OBO_REL_inheres_in";
+        public static final String INHERES_IN_PART_OF = PREFIX + "OBO_REL_inheres_in_part_of";
+        public static final String TOWARDS = PREFIX + "OBO_REL_towards";
+        public static final String HAS_PART = PREFIX + "OBO_REL_has_part";
+        public static final String BEARER_OF = PREFIX + "OBO_REL_bearer_of";
     }
 
     public static class CDAO {
